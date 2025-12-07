@@ -9,7 +9,7 @@ jobs:
   MyFirstJob:
     runs-on: ubuntu-latest
     steps:
-      - run: exho "Hello World"
+      - run: echo "Hello World"
       - name: Checkout
         uses: actions/checkout@v6.0.1
 
